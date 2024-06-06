@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:10vh;
+    width:100;
+    /*border:2px solid black;*/
+    
+}
+.header p{
+    font-size: 200%;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    width:100vw;
+   /* background-color: aqua;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.container p{
+    flex-grow: 1;
+    text-align: center;
+    display: inline-block;
+    width:100%;
+    /*border:2px solid black;*/
+    height:10vh;
+    font-size: 200%;
+   line-height:10vh;
+    
+
+}
+
+body{
+   /* background-image: url("/documents_required_for_cash_loan.jpg");*/
+    background-color: rgb(202, 160, 228);
+}
+.container input{
+    margin:6vh;
+    display: inline-block;
+    height:6vh;
+   
+    width:30%;
+    padding-left:10%;
+    padding-right:5%;
+    
+    /*border:2px solid black;*/
+
+
+}
+
+
+.display{
+    display:flex;
+
+}
+.display div{
+    display:inline-block;
+   
+    width:50%;
+    border:2px solid black;
+    
+    
+    
+    
+}
+iframe{
+    border:2px solid black;
+}
+#P1{
+    text-align: center;
+}
